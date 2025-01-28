@@ -7,8 +7,21 @@ Ce projet vise à développer une solution de traitement automatique du langage 
 
 Pour cela, deux approches ont été considérées :
 1.	Utiliser des LLMs pré-entrainés, et les fine-tuner pour notre tâche de token classification.
-2.	Développer des RegEx pour extraire les références à des documents
+2.	Développer des RegEx pour extraire les références à des documents.
+
 Le code est disponible sur mon [GitHub](https://github.com/AlexiaALLAL/nlp_doc_recognition_project/)
+
+Les différents fichiers sont organisés de la manière suivante :
+
+- `data_4/`:
+    - `data/` : Fichiers HTML à traiter
+    - `data_annoted/` : Fichiers annotés à la main
+    - `annoted_regex/` : Fichiers annotés par regex
+- `project_nlp.ipynb` : Notebook principal contenant le code
+- `Projet NLP.docx` : Rapport du projet
+- `Projet_4.pdf` : Consignes du projet
+- `requirements.txt` : Fichier contenant les dépendances du projet
+
 
 ## I.	Utilisation de LLM préentraînés et fine-tuning
 
