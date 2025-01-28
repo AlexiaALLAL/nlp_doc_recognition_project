@@ -1,6 +1,3 @@
-# nlp_doc_recognition_project
- 
-
 # NLP - Projet 4 – Reconnaissance de références juridiques
 
 Ce projet vise à développer une solution de traitement automatique du langage naturel (NLP) permettant d’identifier et de baliser les références à d'autres textes juridiques dans un corpus de documents HTML. L'objectif est de détecter avec précision les mentions de lois, décrets, arrêtés, circulaires et autres textes réglementaires, puis de les encadrer avec des balises `<a>` et `</a>` pour faciliter leur identification et leur navigation.
